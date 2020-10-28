@@ -986,9 +986,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 21fe29e73ae4cc842b0d5e9ca6e345f9, type: 3}
 --- !u!4 &101095727 stripped
 Transform:
@@ -5560,6 +5560,11 @@ PrefabInstance:
         type: 3}
       propertyPath: baseStats.Suspension
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934862071804020760, guid: 5bce91ab2f42c924e9171c2efed10487,
+        type: 3}
+      propertyPath: baseStats.TopSpeed
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3934862071804020761, guid: 5bce91ab2f42c924e9171c2efed10487,
         type: 3}
@@ -11418,7 +11423,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1207105314}
-  m_LocalRotation: {x: 0.018027127, y: 0.00000009533336, z: 0.0000051682396, w: -0.9998375}
+  m_LocalRotation: {x: 0.018027127, y: 0.00000009533334, z: 0.0000051682396, w: -0.9998375}
   m_LocalPosition: {x: 15.94, y: 2.26, z: -3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -13373,7 +13378,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1389235981}
-  m_LocalRotation: {x: 0.018027127, y: 0.00000009533336, z: 0.0000051682396, w: -0.9998375}
+  m_LocalRotation: {x: 0.018027127, y: 0.00000009533334, z: 0.0000051682396, w: -0.9998375}
   m_LocalPosition: {x: 15.94, y: 2.26, z: -3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
